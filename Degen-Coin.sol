@@ -39,7 +39,6 @@ contract DegenToken is ERC20 {
 
     function getOwnedAssets(address _owner) public view returns (string[] memory) {
         return ownedAssets[_owner];
-    }
-
-    
+    }  
 }
+//Created by ASHVINI KUMAR
