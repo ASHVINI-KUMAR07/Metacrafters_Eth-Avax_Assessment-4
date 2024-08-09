@@ -36,7 +36,7 @@ contract DegenToken is ERC20 {
     function transferTo(address _to, uint _val) public  {
         _transfer(msg.sender, _to, _val);
     }
-
+//This will give the items which we defined in string above, like pencil eraser and scale
     function getOwnedAssets(address _owner) public view returns (string[] memory) {
         return ownedAssets[_owner];
     }  
